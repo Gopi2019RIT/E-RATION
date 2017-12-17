@@ -5,80 +5,60 @@
 		<title>Intelligent Solutin Inc</title>
 		<link href="css/main.css" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
+
 			<style>
 				
 			</style>
 	</head>
 <body>
 	<form>
-		
+		<div>
+		   <div><h2>New Inspection</h2></div>
+		   <div>Prop# <input type="text" name="prop"></div>
 			<section>
-				<div colspan=2>Aadhar Number</div>
-				<div colspan=2><input type="text" onkeypress="return isNumberKey(event)"></div>
+				<div>Interior Walls</div>
+				<div class="na"><input type="radio" name="fireplaces" value="0"></div>
+				<div class="poor"><input type="radio" name="fireplaces" value="1"></div>
+				<div class="fair"><input type="radio" name="fireplaces" value="2"></div>
+				<div class="good"><input type="radio" name="fireplaces" value="3"></div>
+				<div class="great"><input type="radio" name="fireplaces" value="4"></div>
+				<div><textarea name="interior_walls_notes" cols="40" rows="4"></textarea></div>
+				<div><input type="file" name="interior_walls_picture"></div>
 			</section>
 			<section>
-				<div>Food Item</div>
-				<div>
-					<select>
-					  <option value="retailer">Kerosene</option>
-					  <option value="admin">Wheat</option>
-					  <option value="customer">Rice</option>
-					  <option value="retailer">Sugar</option>
-					</select>
-				</div>
-				<div>Quantity</div>
-				<div>
-					<input type="number" value="1" onkeypress="return isNumberKey(event)">
-				</div>
+				<div>Interior Ceilings</div>
+				<div class="na"><input type="radio" name="fireplaces" value="0"></div>
+				<div class="poor"><input type="radio" name="fireplaces" value="1"></div>
+				<div class="fair"><input type="radio" name="fireplaces" value="2"></div>
+				<div class="good"><input type="radio" name="fireplaces" value="3"></div>
+				<div class="great"><input type="radio" name="fireplaces" value="4"></div>
+				<div><textarea name="interior_walls_notes" cols="40" rows="4"></textarea></div>
+				<div><input type="file" name="interior_walls_picture"></div>
 			</section>
 			<section>
-				<div>Food Item</div>
-				<div>
-					<select>
-					  <option value="admin">Wheat</option>
-					  <option value="customer">Rice</option>
-					  <option value="retailer">Kerosene</option>
-					  <option value="retailer">Sugar</option>
-					</select>
-				</div>
-				<div>Quantity</div>
-				<div>
-					<input type="number" value="1" onkeypress="return isNumberKey(event)">
-				</div>
+				<div>Smoke Alarms</div>
+				<div class="na"><input type="radio" name="smokelalarms" value="0"></div>
+				<div class="poor"><input type="radio" name="smokelalarms" value="1"></div>
+				<div class="fair"><input type="radio" name="smokelalarms" value="2"></div>
+				<div class="good"><input type="radio" name="smokelalarms" value="3"></div>
+				<div class="great"><input type="radio" name="smokelalarms" value="4"></div>
+				<div><textarea name="smoke_alarms_notes" cols="40" rows="4"></textarea></div>
+				<div><input type="file" name="smoke_alarms_picture"></div>
 			</section>
 			<section>
-				<div>Food Item</div>
-				<div>
-					<select>
-					  <option value="retailer">Sugar</option>
-					  <option value="admin">Wheat</option>
-					  <option value="customer">Rice</option>
-					  <option value="retailer">Kerosene</option>
-					</select>
-				</div>
-				<div>Quantity</div>
-				<div><input type="number" value="1" onkeypress="return isNumberKey(event)"></div>
+				<div>Fireplaces</div>
+				<div class="na"><input type="radio" name="fireplaces" value="0"></div>
+				<div class="poor"><input type="radio" name="fireplaces" value="1"></div>
+				<div class="fair"><input type="radio" name="fireplaces" value="2"></div>
+				<div class="good"><input type="radio" name="fireplaces" value="3"></div>
+				<div class="great"><input type="radio" name="fireplaces" value="4"></div>
+				<div><textarea name="fireplaces_notes" cols="40" rows="4"></textarea></div>
+				<div><input type="file" name="fireplaces_picture"></div>
 			</section>
-			<section>
-				<div>Food Item</div>
-				<div>
-					<select>
-					  <option value="retailer">Rice</option>
-					  <option value="admin">Wheat</option>
-					  <option value="customer">Sugar</option>
-					  <option value="retailer">Kerosene</option>
-					</select>
-				</div>
-				<div>Quantity</div>
-				<div><input type="number" value="1" onkeypress="return isNumberKey(event)"></div>
-			</section>
-			<section>
-				<div id="06"><input type="Button" value="Close"></div>
-				<div id="07"><input type="Button" value="Clear"></div>
-				<div id="08"><input type="Button" value="Submit"></div>
-			</section>
-		
+		</div>
+		<input type="submit" name="saveForm" value="Save">
 	</form>
-<script src="js/E-RationShop.js"></script>
+	<script src="js/vendor/jquery-3.2.1.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
