@@ -1,0 +1,39 @@
+Complete "HTTP Collect"
+
+Complete "Juggling Async"
+
+Complete "Time Server"
+Complete "HTTP File Server"
+
+Complete "HTTP Uppercaserer"
+
+Complete "HTTP JSON API Server"
+
+
+Complete "Hello World!"
+
+Complete "Static"
+
+Complete "Jade" (Jade has been renamed to Pug)
+
+Complete "Good Old Form"
+
+Complete "Stylish CSS"
+
+Complete "Param Pam Pam"
+
+Complete "What's In Query"
+
+Complete "JSON Me"
+
+glitch.com for for node.js & mongodb
+
+https://aws.amazon.com/cloud9/?origin=c9io
+http://www.clementinejs.com/ 
+https://github.com/johnstonbl01/clementinejs-fcc.git
+
+GITHUB_KEY=
+GITHUB_SECRET=
+MONGO_URI=mongodb://localhost:27017/clementinejs
+PORT=8080
+APP_URL=http://localhost:8080/
