@@ -1,0 +1,12 @@
+.container {
+	display: grid;
+	/*grid-template-columns: 1fr 1fr 1fr;*/
+	/*grid-template-columns: repeat(2 1fr);*/
+	grid-template-columns: repeat(4, 1fr);
+	/*grid-template-rows: 50px 50px;*/
+	grid-template-rows: repeat(2, 50px);*
+	grid-gap: 3px;
+}
+
+https://medium.freecodecamp.org/learning-css-grid-through-recreating-airbnb-youtube-and-more-399c71377eaa
+https://scrimba.com/p/pWqLHa/cbVn4t4
