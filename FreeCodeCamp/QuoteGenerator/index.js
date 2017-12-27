@@ -24,14 +24,13 @@ function quoteFromArray(){
 // Random Quote Generator
 function quoteFromAPI(){
 	var url = "https://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=jsonp&lang=en&jsonp=?";
+	var data; 
+	
 	var getQuote = function(data) {
-		//$(".quoteDisplay").text(data.quoteText);
+	    console.log("json Response - "+  JSON.stringify(data));
 		document.getElementById("quoteDisplay").innerHTML = data.quoteText;
 	};
 	$(document).ready(function() {
-		$.getJSON(url, getQuote, 'jsonp');
-	});
-	$("#quote").click(function() {
 		$.getJSON(url, getQuote, 'jsonp');
 	});
 }
