@@ -1,1 +1,8 @@
 https://medium.freecodecamp.org/building-a-weather-app-a3cec42b11fa
+
+http://voidcanvas.com/node-js-googleapis-v4-spreadsheet/
+https://developers.google.com/sheets/api/quickstart/nodejs
+
+https://github.com/jpillora/node-edit-google-spreadsheet
+
+https://github.com/samcday/node-google-spreadsheets
