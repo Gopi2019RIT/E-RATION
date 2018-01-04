@@ -5,28 +5,30 @@
 	</head>
 <body>
      <div class="container">
-		<div id="headerInfo" class="box header"><h1>Weather Forecast for Lagos</h1></div>
-		<div class="box nav"><img src="" alt="Not found" id="imgIcon"></div>
+		<div id="headerInfo" class="grid header"><h1>Weather Forecast for Lagos</h1></div>
+		<div class="grid nav"><img src=" " alt="Not found" id="imgIcon" height="102" width="102"></div>
 		<div>
-			<div class="box content" id="localTime">
-				<div>3.18</div>
-				<div id="localTime">#</div>
+			<div class="grid content" id="localTime">
+				<div><p>Local Time</p></div>
+				<div id="localTime"><p>#</p></div>
 			
-				<div>Local Temp</div>
-				<div>#</div>
+				<div><p>Local Temp</p></div>
+				<div id="localTemp"><p>#</p></div>
+			
+				<div><p>Weather Type</p></div>
+				<div id="weathertype"><p></p></div>
 			</div>
-			<div class="box content" id="weatherType">
-				<p>Weather Type</p>
-				<p>#</p>
-			</div>
-			<div class="box content"><p>Find a Forecast</p></div>
-			<div class="box content" id="inputLocation"><input type=text placeholder="Search for location or keyword"> </div>
-			<div class="box content" id="search"><button class="button" onclick="filterWeatherInfo()">Search</></div>
-           </div>
-		<div class="box footer" id="footerNote"> Designed & coded by Abhay</div>
+		</div>
+		<div class="grid extra main__body">
+			<div><p>Find a Forecast</p></div>
+			<div ><input type=text placeholder="Search for location or keyword" id="inputLocation"> </div>
+			<div ><button id="search" class="button">Search</></div>
+        </div>
+		<div class="grid footer" id="footerNote"> Designed & coded by Abhay</div>
 	 </div>
 	 
 	<script type="text/javascript" src="jquery-1.11.2.min.js"> </script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script type="text/javascript" src="index.js"> </script>
 </body>
 </html>
