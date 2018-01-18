@@ -1,0 +1,12 @@
+https://mbeaudru.github.io/modern-js-cheatsheet/
+https://github.com/Chalarangelo/30-seconds-of-code
+https://github.com/Chalarangelo/30-seconds-of-code
+https://github.com/bnb/awesome-awesome-nodejs
+http://goldbergyoni.com/checklist-best-practice-of-node-js-in-production/
+https://www.niceideas.ch/roller2/badtrash/entry/periodic-table-of-agile-principles
+https://github.com/mre/awesome-static-analysis
+https://ponyfoo.com/books/practical-modern-javascript/chapters#toc
+https://github.com/markerikson/react-redux-links
+https://codewithoutrules.com/
+
+https://www.fullstackreact.com/30-days-of-react/
